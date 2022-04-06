@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A0FC71727FDDCB300EFE271 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FC71627FDDCB300EFE271 /* ContentViewController.swift */; };
+		9A0FC71B27FDDCDB00EFE271 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FC71A27FDDCDB00EFE271 /* PageViewController.swift */; };
+		9A0FC72327FDE21D00EFE271 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FC72227FDE21D00EFE271 /* OnboardingSlide.swift */; };
+		9A0FC72727FDE29900EFE271 /* SlideDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FC72627FDE29900EFE271 /* SlideDataManager.swift */; };
+		9A0FC72A27FDFCB700EFE271 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FC72927FDFCB700EFE271 /* WelcomeViewController.swift */; };
+		9A0FC72D27FE071500EFE271 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FC72C27FE071500EFE271 /* NameViewController.swift */; };
 		9A2C006527FCA7C3004A567B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C006427FCA7C3004A567B /* AppDelegate.swift */; };
 		9A2C006727FCA7C3004A567B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C006627FCA7C3004A567B /* SceneDelegate.swift */; };
-		9A2C006927FCA7C3004A567B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C006827FCA7C3004A567B /* ViewController.swift */; };
 		9A2C006C27FCA7C3004A567B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2C006A27FCA7C3004A567B /* Main.storyboard */; };
 		9A2C006E27FCA7C4004A567B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A2C006D27FCA7C4004A567B /* Assets.xcassets */; };
 		9A2C007127FCA7C4004A567B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2C006F27FCA7C4004A567B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A0FC71627FDDCB300EFE271 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		9A0FC71A27FDDCDB00EFE271 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		9A0FC72227FDE21D00EFE271 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		9A0FC72627FDE29900EFE271 /* SlideDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideDataManager.swift; sourceTree = "<group>"; };
+		9A0FC72927FDFCB700EFE271 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		9A0FC72C27FE071500EFE271 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 		9A2C006127FCA7C3004A567B /* MoneyBoxOnboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyBoxOnboarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2C006427FCA7C3004A567B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A2C006627FCA7C3004A567B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9A2C006827FCA7C3004A567B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A2C006B27FCA7C3004A567B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A2C006D27FCA7C4004A567B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A2C007027FCA7C4004A567B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +47,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A0FC71E27FDDEC600EFE271 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				9A0FC71627FDDCB300EFE271 /* ContentViewController.swift */,
+				9A0FC71A27FDDCDB00EFE271 /* PageViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		9A0FC72027FDE1A900EFE271 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A0FC72227FDE21D00EFE271 /* OnboardingSlide.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A0FC72127FDE1E100EFE271 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9A0FC72627FDE29900EFE271 /* SlideDataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		9A2C005827FCA7C3004A567B = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +91,51 @@
 		9A2C006327FCA7C3004A567B /* MoneyBoxOnboarding */ = {
 			isa = PBXGroup;
 			children = (
-				9A2C006427FCA7C3004A567B /* AppDelegate.swift */,
-				9A2C006627FCA7C3004A567B /* SceneDelegate.swift */,
-				9A2C006827FCA7C3004A567B /* ViewController.swift */,
-				9A2C006A27FCA7C3004A567B /* Main.storyboard */,
-				9A2C006D27FCA7C4004A567B /* Assets.xcassets */,
-				9A2C006F27FCA7C4004A567B /* LaunchScreen.storyboard */,
-				9A2C007227FCA7C4004A567B /* Info.plist */,
+				9A2C007B27FCA7E0004A567B /* Controllers */,
+				9A0FC72027FDE1A900EFE271 /* Model */,
+				9A0FC72127FDE1E100EFE271 /* Services */,
+				9A2C007D27FCA7EA004A567B /* Views */,
+				9A2C007927FCA7D3004A567B /* Apps */,
+				9A2C007F27FCA80E004A567B /* Resources */,
 			);
 			path = MoneyBoxOnboarding;
+			sourceTree = "<group>";
+		};
+		9A2C007927FCA7D3004A567B /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				9A2C006427FCA7C3004A567B /* AppDelegate.swift */,
+				9A2C006627FCA7C3004A567B /* SceneDelegate.swift */,
+				9A2C007227FCA7C4004A567B /* Info.plist */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		9A2C007B27FCA7E0004A567B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A0FC71E27FDDEC600EFE271 /* Onboarding */,
+				9A0FC72927FDFCB700EFE271 /* WelcomeViewController.swift */,
+				9A0FC72C27FE071500EFE271 /* NameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9A2C007D27FCA7EA004A567B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A2C006A27FCA7C3004A567B /* Main.storyboard */,
+				9A2C006F27FCA7C4004A567B /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A2C007F27FCA80E004A567B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A2C006D27FCA7C4004A567B /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +208,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A2C006927FCA7C3004A567B /* ViewController.swift in Sources */,
+				9A0FC72327FDE21D00EFE271 /* OnboardingSlide.swift in Sources */,
+				9A0FC71727FDDCB300EFE271 /* ContentViewController.swift in Sources */,
+				9A0FC71B27FDDCDB00EFE271 /* PageViewController.swift in Sources */,
+				9A0FC72D27FE071500EFE271 /* NameViewController.swift in Sources */,
 				9A2C006527FCA7C3004A567B /* AppDelegate.swift in Sources */,
 				9A2C006727FCA7C3004A567B /* SceneDelegate.swift in Sources */,
+				9A0FC72727FDE29900EFE271 /* SlideDataManager.swift in Sources */,
+				9A0FC72A27FDFCB700EFE271 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +364,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4MMKWZWX48;
-				INFOPLIST_FILE = MoneyBoxOnboarding/Info.plist;
+				INFOPLIST_FILE = MoneyBoxOnboarding/Apps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +383,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4MMKWZWX48;
-				INFOPLIST_FILE = MoneyBoxOnboarding/Info.plist;
+				INFOPLIST_FILE = MoneyBoxOnboarding/Apps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
